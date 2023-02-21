@@ -1,0 +1,264 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Teko', sans-serif;
+    color: #616161;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202321;
+
+}
+
+
+.nav-link{
+    text-decoration: none;
+}
+.nav {
+    font-size: 4ch;
+    padding-left: 25%;
+    gap: 125px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    margin-right: 0.3rem;
+    color: #ffffff;
+}
+.fotocv {
+    border-radius: 26px 26px 3px 26px;
+    -webkit-border-radius: 26px 26px 3px 26px;
+    -moz-border-radius: 26px 26px 3px 26px;
+    width: 260px;
+    height: 315px;
+    float: right;
+    display: flex;
+}
+
+.name {
+    font-size: 6ch;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.58);
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+h2 {
+    font-size: 4ch;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.58);
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.a1 {
+    color: #242525;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+
+.a1 {
+    text-decoration: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    width: 10px;
+    margin: 185px;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.78);
+    box-shadow: inset 0 0 0 0 #394449;
+    color: #b8b8b8;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #3f3f3f;
+
+}
+
+.a1 {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 0.5;
+    text-decoration: none;
+    font-size: x-large;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+section#inicio {
+    display: flex;
+    background: inherit;
+    padding: 2rem 4rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Presentational styles */
+
+
+
+.sobremi {
+    margin: 2%;
+    padding: 2%;
+    font-size: 7ch;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.78);
+    color: #656464;
+    text-align: center;
+}
+
+.psobremi {
+    margin: auto;
+    font-weight: normal;
+    font-size: 1ch;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.78);
+}
+
+.skills {
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    gap: inherit;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.78);
+}
+
+.habilidades {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px 131px 0px;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.42);
+
+}
+
+.habilidades h4 {
+    padding: 0px 131px 0px;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.42);
+    color: #848484;
+}
+
+
+.nav-link {
+    color: #ffffff;
+    font-size: large;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Formacion*/
+#formacion{
+    color: #656464;
+    font-family: "Montserrat", sans-serif;
+    padding: 2rem;
+    text-align: center;
+}
+.titulo-formacion{
+    margin: 1.25rem 0;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #656464;
+}
+.formacion-container{
+        display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.imagen-card{
+    max-width: 500px;
+}
+
+button{
+    text-decoration: none;
+}
+.formacion-card{
+    margin: auto;
+    width: 100%;
+    max-width: 540px;
+    max-height: 500px;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    border: 1px solid #d5dad8;
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 50%);
+    border-radius: 7px;
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.formacion-card p{
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1.0rem;
+    text-align: center;
+    color: #8a8484;
+}
+
+.formacion-card h4{
+    color: #afb4b2;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.formacion-card h6{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0.5rem;
+}
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill header {
+    margin-bottom: 1rem;
+  }
+  
+  .contenedor-habilidad img {
+    padding: 1.25rem;
+  }
+  
+/*Proyectos*/
+  .icon-card {
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    margin: 250x;
+    height: 250px;
+}
+
+.img-fluid{
+
+    max-height: 250px;
+}
+
+.cards{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
